@@ -1,0 +1,12 @@
+{
+"manifest_version":3,
+"name": "Ghosty Extension",
+"description":"Basic Level Extension",
+"version":"1.0",
+"action":{
+"default_popup":"common/hello.html",
+"default_icon":"images/icon.png"
+
+}
+
+}
