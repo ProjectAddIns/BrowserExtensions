@@ -19,6 +19,13 @@
 "default_popup":"common/hello.html",
 "default_icon":"images/icon.png"
 
-}
+},
+"web_accessible_resources": [
+  {
+    "resources": [ "images/icon.png" ],
+    "matches": ["http://*/*", "https://*/*", "file://*/*"],
+    "use_dynamic_url": true
+  } 
+]
 
 }
